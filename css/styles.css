@@ -1,3 +1,46 @@
+* {
+	box-sizing: border-box;
+}
 body {
-	
+	max-width: 800px;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+img {
+	width: auto;
+	max-width: 100%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.5);
+}
+.active a {
+	color: #fff;
+}
+header {
+	background-color: #1b5589;
+}
+header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.icon {
+	max-width: 40px;
+}
+.user-icon {
+	max-width: 30px;
+}
+.container {
+	padding: 0 40px;
 }
